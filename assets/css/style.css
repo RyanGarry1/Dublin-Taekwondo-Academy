@@ -1,0 +1,14 @@
+nav {
+    background-color: black;
+}
+
+ul a {
+    display: inline;
+    float: right;
+    padding: 8px;
+}
+
+.nav-logo {
+    height: 200px;
+    width: 200px;
+}
