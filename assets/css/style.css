@@ -10,6 +10,10 @@ body {
     font-family: Poppins, sans-serif;
 }
 
+p {
+    line-height: 25px;
+}
+
 /* Navigation Bar */
 
 nav {
@@ -74,8 +78,20 @@ h1 {
     font-size: 46px;  
 }
 
+h2 {
+    font-family: 'Abril Fatface' , serif;
+    font-size: 35px;
+}
+
 .hero {
     height: 480px;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.mission-image {
+    height: 500px;
     width: 100%;
     background-color: #fff;
 }
