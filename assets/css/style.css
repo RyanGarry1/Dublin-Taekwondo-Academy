@@ -165,8 +165,26 @@ footer .copyright {
     color: #fff;
 }
 
+/* Gallery Styling */
 
+.gallery {
+    display: flex;
+    max-width: 1300px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.gallery img {
+    width: 360px;
+    height: 320px;
+    padding: 5px;
+}
+
+.gallery img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
 
 
 /* Screen Sizing */
