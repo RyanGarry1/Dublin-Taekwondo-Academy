@@ -31,6 +31,14 @@ label.logo {
     letter-spacing: 2px;
 }
 
+.home-logo {
+    color: #fff;
+}
+
+.home-logo:hover {
+    background-color: #000;
+}
+
 nav ul {
     float: right;
     margin-right: 20px;
