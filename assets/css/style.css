@@ -92,7 +92,7 @@ h2 {
 }
 
 .mission-image {
-    height: 500px;
+    height: 530px;
     width: 100%;
     background-color: #fff;
 }
@@ -320,5 +320,34 @@ footer .copyright {
     }
     #check:checked ~ ul {
         left: 0;
+    }
+}
+
+@media (max-width: 384px){
+
+    label.logo{
+        font-size: 17px;
+        padding-left: 12px;
+        display: block;
+    }
+
+
+    .hero {
+        height: 350px;
+        width: 100%;
+        background-color: #fff;
+    
+    }
+
+    .mission-image {
+        height: 400px;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .child {
+        height: 400px;
+        width: 100%;
+        background-color: #fff;
     }
 }
