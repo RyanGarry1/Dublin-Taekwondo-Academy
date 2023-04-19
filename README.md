@@ -22,3 +22,10 @@ We also want to provide all of our academy's information, training schedule and 
 - I want to make the website appealing to all potential new students
 
 # Features
+In this section I would like to highlight all of the features I have currently implemented on the website
+### Exsisting Features
+- I created a fully responsive navigation bar which clearly shows the user the links to our home page, 
+gallery & contact us sections. I also made the navigation bar identical on every page to keep navigation
+easy and intuitive for the user
+- I implemented this section so the user has a more streamlined experience and won't require the use of a back button
+![nav bar image](assets/images/navbar.jpg)
