@@ -39,6 +39,28 @@ label.logo {
     background-color: #000;
 }
 
+label .logo-small {
+    visibility: hidden;
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-family: 'Abril Fatface', serif;
+    letter-spacing: 2px;
+}
+
+.home-logo-small {
+    visibility: hidden;
+}
+
+.home-logo-small {
+    color: #fff;
+}
+
+.home-logo-small:hover {
+    background-color: #000;
+}
+
 nav ul {
     float: right;
     margin-right: 20px;
