@@ -40,7 +40,7 @@ label.logo {
 }
 
 label .logo-small {
-    visibility: hidden;
+    display: none;
     color: white;
     font-size: 35px;
     line-height: 80px;
@@ -50,7 +50,7 @@ label .logo-small {
 }
 
 .home-logo-small {
-    visibility: hidden;
+    display: none;
 }
 
 .home-logo-small {
@@ -353,12 +353,40 @@ footer .copyright {
     }
 }
 
-@media (max-width: 384px){
-
+@media (max-width: 426px){
     label.logo{
+        display: none;
         font-size: 17px;
         padding-left: 12px;
         display: block;
+    }
+
+    .home-logo{
+        display: none;
+    }
+
+    label .logo-small {
+        display: block;
+        color: white;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 50px;
+        font-family: 'Abril Fatface', serif;
+        letter-spacing: 2px;
+    }
+
+    .home-logo-small {
+        display: block;
+        color: white;
+        font-size: 45px;
+        line-height: 80px;
+        padding: 0 50px;
+        font-family: 'Abril Fatface', serif;
+        letter-spacing: 5px;
+    }
+    
+    .home-logo-small:hover {
+        background-color: #000;
     }
 
 
