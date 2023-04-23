@@ -209,7 +209,7 @@ footer .copyright {
 
 .gallery img {
     width: 360px;
-    height: 320px;
+    height: auto;
     padding: 5px;
 }
 
