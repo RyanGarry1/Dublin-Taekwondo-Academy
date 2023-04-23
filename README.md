@@ -138,6 +138,7 @@ the user to the website and explains who we are, our mission and what we offer.
 - Social media icons were taken from [Font Awesome](https://fontawesome.com/)
 - Instruction for making navbar responsive was taken from [Youtube Video](https://www.youtube.com/watch?v=At4B7A4GOPg&pp=ygURcmVzcG9uc2l2ZSBuYXZiYXI%3D)
 - Instruction for creating a responsive footer was taken from [youtube video](https://www.youtube.com/watch?v=2-5LpaN2LF8&t=238s)
+- Instruction for implementing the responsive iframe map was found in this [youtube video](https://www.youtube.com/watch?v=p9Ubg6Mqq6w)
 
 ## Media
 - Images that are used on Home Page were taken from [Pexels](https://www.pexels.com/)
