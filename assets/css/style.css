@@ -293,7 +293,6 @@ footer .copyright {
     margin-bottom: 20px;
     padding: 15px;
     font-family: 'Poppins', sans-serif;
-
 }
 
 .contact-form-button {
@@ -362,7 +361,7 @@ footer .copyright {
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 622px) {
     label.logo {
         display: none;
         font-size: 17px;
@@ -417,4 +416,28 @@ footer .copyright {
         width: 100%;
         background-color: #fff;
     }
+}
+
+@media (max-width: 450px) {
+    .contact-form {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        flex: 50%;
+        text-align: center;
+    }
+
+    .contact-form-textarea {
+        width: 100%;
+        height: 100px;
+        color: #000;
+        border: 1px solid #bcbcbc;
+        border-radius: 5px;
+        outline: none;
+        margin-bottom: 20px;
+        padding: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+
 }
