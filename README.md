@@ -78,3 +78,58 @@ the user to the website and explains who we are, our mission and what we offer.
 ![lighthouse](assets/images/index-html-accessibility.png)
 ![lighthouse](assets/images/gallery-html-accessibility.png)
 ![lighthouse](assets/images/contact-html-accessibility.png)
+
+## Fixed Bugs
+- Contact form was intruding on the footer of the contact page when screen size was lowered but I ammended this by creating a media query decreasing the size of the form
+- The Navigation bar logo was too big when the screen size was lowered, I corrected this by creating a second smaller logo and setting display to none on bigger screen sizes and making a media query where it was visible
+
+## Feature Testing Navbar
+- Feature: Navbar Logo
+
+- Expect: Returns to Home when clicked
+
+- Action: Clicked the Logo on navbar
+
+- Result: Successfully returned to Home Page
+
+- Feature: Home Button
+
+- Expect: Returns to Home when clicked
+
+- Action: Clicked the Home Button on navbar
+
+- Result: Successfully returned to Home Page
+
+- Feature: Gallery Button
+
+- Expect: Opens Gallery when clicked
+
+- Action: Clicked Gallery Button on navbar
+
+- Result: Successfully opens Gallery
+
+- Feature: Contact Us Button
+
+- Expect: Opens Contact Form when clicked
+
+- Action: Clicked the contact us button
+
+- Result: Successfully opened the contact us page
+
+## Testing of User Stories
+- Expectations: As a Visitor I want to find all of the information about the Dublin Taekwondo Academy including location, information about instructors, what I will achieve by signing up and how I can contact the Academy.
+
+- Result: As a Visitor I have found the location of the academy along with all of the information in regards to classes, instructors and benefits of becoming a member
+
+- Expectation: As a visitor I want to be able to easily navigate around the website and contact the academy
+
+- Result: I was able to navigate easily through the website and easily found and submitted a contact form
+
+# Deployment
+## The site was deployed to Github Pages, the steps are as follows:
+- In the Repository, click the settings tab
+- Select Master branch from the source section drop-down menu
+- Once you have selected Master branch, the page will automatically refresh and display that the site has been successfully deployed
+**Find the live link here** - [Dublin Taekwondo Academy](https://ryangarry1.github.io/Dublin-Taekwondo-Academy/)
+
+
