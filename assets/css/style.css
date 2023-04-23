@@ -5,7 +5,7 @@
     list-style: none;
     box-sizing: border-box;
 }
-
+/* font styling for the body and paragraphs of the website*/
 body {
     font-family: Poppins, sans-serif;
 }
@@ -14,14 +14,14 @@ p {
     line-height: 25px;
 }
 
-/* Navigation Bar */
+/* Navigation Bar styling for all pages */
 
 nav {
     background-color: black;
     height: 80px;
     width: 100%;
 }
-
+/*Styling for the main logo on navigation bar */
 label.logo {
     color: white;
     font-size: 35px;
@@ -38,7 +38,7 @@ label.logo {
 .home-logo:hover {
     background-color: #000;
 }
-
+/* Styling for the smaller logo that was added to improve responsiveness */
 label .logo-small {
     display: none;
     color: white;
@@ -60,7 +60,7 @@ label .logo-small {
 .home-logo-small:hover {
     background-color: #000;
 }
-
+/* Styling for the navigation bar text and hamburger menu */
 nav ul {
     float: right;
     margin-right: 20px;
@@ -103,7 +103,7 @@ a:hover {
     display: none;
 }
 
-/* Home Page main content */
+/* Home Page main content styling */
 
 h1 {
     font-family: 'Abril Fatface', serif;
@@ -114,7 +114,7 @@ h2 {
     font-family: 'Abril Fatface', serif;
     font-size: 35px;
 }
-
+/* Styling for the 3 images on the index.html page */
 .hero {
     height: auto;
     width: 100%;
@@ -135,12 +135,12 @@ h2 {
 }
 
 
-/* Footer */
+/* Footer styling  */
 footer {
     padding: 40px 0;
     background-color: black;
 }
-
+/* Styling for the text and social media icons */
 .socials {
     text-align: center;
     padding-bottom: 25px;
@@ -164,7 +164,7 @@ footer {
 .socials a:hover {
     opacity: 0.9;
 }
-
+/* Styling for the footer text including links to gallery and contact us page */
 footer ul {
     margin-top: 0;
     padding: 0;
@@ -197,7 +197,7 @@ footer .copyright {
     color: #fff;
 }
 
-/* Gallery Styling */
+/* Gallery Page Styling including flex box for responsiveness */
 
 .gallery {
     display: flex;
@@ -239,7 +239,7 @@ footer .copyright {
     background-color: #fff;
     box-shadow: 0px 0px 10px 0px #666;
 }
-
+/* Styling for map to make sure it was responsive*/
 .contact-map {
     width: 100%;
     height: auto;
@@ -250,7 +250,7 @@ footer .copyright {
     width: 100%;
     height: 100%;
 }
-
+/* Styling for text and contact form size on the page*/
 .contact-form {
     width: 100%;
     height: auto;
@@ -311,8 +311,8 @@ footer .copyright {
 
 
 
-/* Screen Sizing */
-
+/* Screen Sizing/Media Queries */
+/*Media Query to assist with logo size*/
 @media (max-width: 952px) {
     label.logo {
         font-size: 30px;
@@ -323,7 +323,7 @@ footer .copyright {
         font-size: 16px;
     }
 }
-
+/*Media Query to assist with navigation bar responsiveness*/
 @media (max-width: 858px) {
     .checkbtn {
         display: block;
@@ -360,7 +360,7 @@ footer .copyright {
         left: 0;
     }
 }
-
+/*Media Query to assist with logo sizing and image sizing on home page*/
 @media (max-width: 622px) {
     label.logo {
         display: none;
@@ -399,25 +399,25 @@ footer .copyright {
 
 
     .hero {
-        height: 350px;
+        height: auto;
         width: 100%;
         background-color: #fff;
 
     }
 
     .mission-image {
-        height: 400px;
+        height: auto;
         width: 100%;
         background-color: #fff;
     }
 
     .child {
-        height: 400px;
+        height: auto;
         width: 100%;
         background-color: #fff;
     }
 }
-
+/*Media Query to keep contact form from interfering with Footer on smaller screen sizes*/
 @media (max-width: 450px) {
     .contact-form {
         width: 100%;
