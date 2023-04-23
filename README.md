@@ -28,7 +28,7 @@ We also want to provide all of our academy's information, training schedule and 
 
 ## Wireframes
 - I used Balsamiq wireframes to briefly map out how I wanted the website to look 
-I will attach my wireframes below before my features to show how I implemented the plan
+- I will attach my wireframes below before my features to show how I implemented the plan
 ![wireframe](assets/images/wireframe1.png)
 ![wireframe](assets/images/wireframe2.png)
 ![wireframe](assets/images/wireframe3.png)
@@ -132,4 +132,20 @@ the user to the website and explains who we are, our mission and what we offer.
 - Once you have selected Master branch, the page will automatically refresh and display that the site has been successfully deployed
 **Find the live link here** - [Dublin Taekwondo Academy](https://ryangarry1.github.io/Dublin-Taekwondo-Academy/)
 
+# Credits
+## Content
+- Fonts for the website were taken from [Google Fonts](https://fonts.google.com/)
+- Social media icons were taken from [Font Awesome](https://fontawesome.com/)
+- Instruction for making navbar responsive was taken from [Youtube Video](https://www.youtube.com/watch?v=At4B7A4GOPg&pp=ygURcmVzcG9uc2l2ZSBuYXZiYXI%3D)
+
+## Media
+- Images that are used on Home Page were taken from [Pexels](https://www.pexels.com/)
+- Images from the gallery were taken from [Unsplash](https://unsplash.com/)
+
+# Future Features
+## Features I would like to implement
+- A page dedicated to the classes available and a constantly updating schedule
+- A page dedicated to the instructors including headshots
+- A sliding image gallery on the home page
+- An upcoming tournament schedule
 
