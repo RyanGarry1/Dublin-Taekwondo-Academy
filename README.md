@@ -26,6 +26,13 @@ We also want to provide all of our academy's information, training schedule and 
 - I want to add upcoming tournament/event information
 - I want to make the website appealing to all potential new students
 
+## Wireframes
+- I used Balsamiq wireframes to briefly map out how I wanted the website to look 
+I will attach my wireframes below before my features to show how I implemented the plan
+![wireframe](assets/images/wireframe1.png)
+![wireframe](assets/images/wireframe2.png)
+![wireframe](assets/images/wireframe3.png)
+
 ## Features
 In this section I would like to highlight all of the features I have currently implemented on the website
 ### Exsisting Features
@@ -55,3 +62,19 @@ the user to the website and explains who we are, our mission and what we offer.
 - The footer includes links to our social media channels and an easy navigation bar back to any of our other pages on the website 
 ![footer](assets/images/footer.jpg)
 
+# Testing
+## Validator Testing
+- I have used the Jigsaw CSS validator website by sumbitting my CSS file by Direct Input and the Validator found no errors
+![jigsaw](assets/images/jigsaw-validation.jpg)
+
+- I have used W3C Validator for all 4 html files and all 4 pages have passed with no errors a seen below
+![validation](assets/images/index-html-validation.png)
+![validation](assets/images/gallery-html-validation.png)
+![validation](assets/images/contact-html-validation.png)
+![validation](assets/images/404html-validation.png)
+
+## Google Lighthouse
+- I used Google Chrome Developer tools Lighthouse to validate the Accessibility of my website and it also passed please see below 
+![lighthouse](assets/images/index-html-accessibility.png)
+![lighthouse](assets/images/gallery-html-accessibility.png)
+![lighthouse](assets/images/contact-html-accessibility.png)
